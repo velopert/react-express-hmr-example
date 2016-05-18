@@ -13,22 +13,22 @@ npm install
   
 ## Scripts
 ### clean
-```
+```bash
 # removes build directory and bundle.js
 npm run clean
 ```
 ### build
-```
+```bash
 # transpiles ES6 codes of both client-side and server-side
 npm run build
 ```
 ### start
-```
+```bash
 # starts the server with production environment
 npm run start
 ```
 ### development
-```
+```bash
 # starts the server with development environment
 npm run development
 ```
