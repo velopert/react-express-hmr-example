@@ -1,34 +1,8 @@
-# React-Express-HMR-Example
+# REACT-REMOTE-COUNTER
 
 ## About
-This is an example project that uses React.js on Express.js server. In development environment, webpack-dev-server will be launched together with Express.js server that has Hot Module Replacement enabled using react-hot-loader.   
-Both of client-side and server-side codes are written in ES6 syntax.
-    
-The port of Express.js server is 3000 and port of webpack-dev-server is 3001.
-  
-## Installation
-```
-npm install
-```
-  
-## Scripts
-### clean
-```bash
-# removes build directory and bundle.js
-npm run clean
-```
-### build
-```bash
-# transpiles ES6 codes of both client-side and server-side
-npm run build
-```
-### start
-```bash
-# starts the server with production environment
-npm run start
-```
-### development
-```bash
-# starts the server with development environment
-npm run development
-```
+This project is an example React.js project that uses Express.js, Redux, and axios to demonstrate a simple counter. The backend server holds the counter and the counter number gets updated every 5 seconds and whenever it is clicked. Some basic CSS are used to decorate the counter.
+
+## Preview
+
+Live Preview: https://remotecounter.hoah.xyz/
