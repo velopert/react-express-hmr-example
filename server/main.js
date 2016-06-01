@@ -17,13 +17,15 @@ if(process.env.NODE_ENV == 'development') {
         console.log('webpack-dev-server is listening on port', devPort);
     });
 }
-
-
 app.use('/', express.static(__dirname + '/../public'));
 
-import counter from './routes/counter';
-let data = { number: 0 };
-app.use('/counter', counter(data));
+app.get('/hello', (req, res) => {
+    return res.send('Can you hear me?');
+});
+
+
+import posts from './routes/posts';
+app.use('/posts', posts);
 
 const server = app.listen(port, () => {
     console.log('Express listening on port', port);
