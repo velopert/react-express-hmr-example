@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf build public/bundle.js",
-    "build": "./node_modules/.bin/babel server --out-dir build && ./node_modules/.bin/webpack",
+    "build": "babel server --out-dir build && webpack",
     "start": "NODE_ENV=production node ./build/main.js",
     "development": "NODE_ENV=development node ./build/main.js"
   },

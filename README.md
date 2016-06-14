@@ -8,6 +8,7 @@ The port of Express.js server is 3000 and port of webpack-dev-server is 3001.
   
 ## Installation
 ```
+npm install -g webpack babel
 npm install
 ```
   
